@@ -4,7 +4,7 @@ var name = prompt("What is your name?");
 let school = prompt("What school do you attend?");
 var fun_fact = prompt("What should people know about you?");
 
-console.log(`Name: $(name)`); 
+console.log(`Name: ${name}`); 
 console.log(`School: ${school}`);
 console.log(`Fun Fact: ${fun_fact}`);
 
