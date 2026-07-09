@@ -8,4 +8,4 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 L.circle(coordinates, {"title": "Hello from Zurich, Switzerland!",
                       color: "black",
                       fillColor: "#ff96ef", 
-                      radius: 90000000000000}).bindPopup("<p>Hello From Zurich, Switzerland!</p>").addTo(map);
+                      radius: 100}).bindPopup("<p>Hello From Zurich, Switzerland!</p>").addTo(map);
