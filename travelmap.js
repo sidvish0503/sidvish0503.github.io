@@ -5,4 +5,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
-L.marker(coordinates, {"title": "Hello from Zurich, Switzerland!"}).bindPopup("<p>Hello From Zurich, Switzerland!</p>").addTo(map);
+L.circle(coordinates, {"title": "Hello from Zurich, Switzerland!",
+                      color: "black",
+                      fillColor: "#ff96ef", 
+                      radius: 90}).bindPopup("<p>Hello From Zurich, Switzerland!</p>").addTo(map);
